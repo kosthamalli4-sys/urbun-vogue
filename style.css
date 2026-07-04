@@ -1,0 +1,117 @@
+{ margin: 2;
+            padding:100px;
+            box-sizing:border-box:padding-box;
+            font-family::-webkit-validation-bubble-arrow-clipper;
+}
+
+button{
+        margin-top:100px;
+            padding:50px 70px;
+            border:none;
+            border-radius:70px;
+            font-size:40px;
+            background:linear-gradient(90deg,#ff00ff,#8000ff);
+            color:white;
+            cursor:pointer;
+            transition:3s;
+            animation:pulse 50s infinite;
+            border-color: #020207;
+        }
+
+.hero{  
+    font-size: 100px;
+         text-align: center;
+         color:#020207;
+         text-shadow: #33ca01;
+         animation: infinite;
+         animation: movingtext 8s  5s  left infinite;
+         text-box-edge: 200px;
+          cursor:pointer;
+            transition:3s;
+            animation:pulse 50s infinite;
+}
+
+ 
+ 
+body{
+ background: #1F08CF;
+            color: black;
+            overflow-x: hidden;
+            /*animated background*/
+            body:: before;
+            content:after;
+            width:100%;
+            height:100%;
+            background: radial-gradient(circle at top center,gray,transparent 70%), radial-gradient(circle at bottom center,#00ffff22,transparent 60%);
+            z-index: -1;
+            animation: bgMove 8s infinite alternate;
+    
+
+}
+@keyframes bgmove{
+    0%{
+        transform: scale(100);
+
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+header{
+                padding: 10px;
+            text-align: center;
+            background: rgba(0,0,0,0,7);
+            background-filter: blur(100px);
+            border-bottom: slidedown 5s ease;
+        }
+header h1 {
+                font: size:900;
+                color: #1f221e;
+                text-shadow: 0 0 0 15px #6507fd;
+                animation: glow 10s infinite alternate;
+         
+}
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 50px #2BFF00;
+            }
+
+            to {
+                text-shadow: 0 0 25px #ff00ff,0 0 40px #000000;
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translate skewY(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:gray;
+    text-shadow: #ff00ff;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: center;
+    text-shadow: 0 0 0 15px #00ff2a;
+                animation: glow 10s infinite alternate;
+   
+}
+
+
+
+
+
+    
+
+
+
+
+        
